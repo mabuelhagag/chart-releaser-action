@@ -1,6 +1,6 @@
 name: test-chart-releaser
 
-on: [pull_request]
+on: [pull_request, workflow_dispatch]
 
 jobs:
   test_chart_releaser_install_action:
